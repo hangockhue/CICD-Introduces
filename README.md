@@ -28,3 +28,8 @@ Yêu cầu chuyên môn hóa trở nên gắt gao, khiến quy trình phát tri�
 - Ngoài ra, ngành phát triển phần mềm cũng dịch chuyển theo một hướng khác – microservices.
 
     ``` Microservices: Một sản phẩm lớn được chia tách làm rất nhiều service nhỏ, các service này liên kết với nhau tạo thành một sản phẩm hoàn chỉnh.```
+- Những lợi ích chính của DevOps là:
+    - Tăng cường sự cộng tác chặt chẽ giữa nhóm phát triển (development) và nhóm vận hành (operation), cũng như khả năng làm việc liên chức năng (cross-functional).
+    - Nâng cao tần suất triển khai (deployment), giúp rút ngắn thời gian phát triển/cải tiến sản phẩm.
+    - Tận dụng các công cụ tự động hóa, giúp hạn chế rủi ro, giảm tỉ lệ thất bại.
+    - Thời gian phục hồi sản phẩm nhanh hơn.
