@@ -1,8 +1,9 @@
 # CICD-Introduces
 ### CI/CD là một bộ đôi công việc, bao gồm
 - CI là viết tắt của Continuous Integration
+    - Nó là phương pháp phát triển phần mềm yêu cầu các thành viên của team tích hợp công việc của họ thường xuyên, mỗi ngày ít nhất một lần. Mỗi tích hợp được "build" tự động (bao gồm cả test) nhằm phát hiện lỗi nhanh nhất có thể. 
 - CD là viết tắt của Continuous Delivery/Continuous Deployment
-là quá trình tích hợp (integration) thường xuyên, nhanh chóng hơn khi code cũng như thường xuyên cập nhật phiên bản mới (delivery).
+    - triển khai tất cả thay đổi về code (đã được build và test) đến môi trường testing hoặc staging. Continuous Delivery cho phép developer tự động hóa phần testing bên cạnh việc sử dụng unit test, kiểm tra phần mềm qua nhiều thước đo trước khi triển khai cho khách hàng (production). 
 
 ### Vì sao phải sử dụn CI/CD:
 - Tính năng mà mất 2, 3 tháng mới release thì dẫn đến mất đi cái lợi thế dẫn đầu. Do đó, việc làm ra một sản phẩm, tính năng đòi hỏi thần tốc là ưu tiên số một hiện nay.
