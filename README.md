@@ -1,5 +1,5 @@
 # CICD-Introduces
-CI/CD là một bộ đôi công việc, bao gồm
+### CI/CD là một bộ đôi công việc, bao gồm
 - CI là viết tắt của Continuous Integration
 - CD là viết tắt của Continuous Delivery/Continuous Deployment
 là quá trình tích hợp (integration) thường xuyên, nhanh chóng hơn khi code cũng như thường xuyên cập nhật phiên bản mới (delivery).
@@ -19,3 +19,12 @@ là quá trình tích hợp (integration) thường xuyên, nhanh chóng hơn kh
 - Bước 8: [Manual] Owner review là merge request OK, test OK. Tiến hành nhấn nút để deploy các thay đổi lên môi trường production.
 - Bước 9: [Manual] Tester/QA sẽ vào hệ thống production để làm UAT và confirm mọi thứ OK. Nếu không OK, Owner có thể nhấn nút Deploy phiên bản master trước đó để rollback hệ thống về trạng thái stable trước đó.
 - Bước 10: [Manual] Chờ email trả lời của khách hàng.
+
+### Devops là gì
+- là một văn hóa làm việc kết hợp giữa kỹ sư phát triển phần mềm (dev) với bộ phận operator (kỹ sư hệ thống, nhân viên bảo mật, kỹ sư mạng, kỹ sư hạ tầng,...) nhằm mục đích rút ngắn vòng đời phát triển sản phẩm (SDLC).
+- Trước uy trình phát triển phần mềm không hề có sự phân tách rạch ròi giữa hai giai đoạn phát triển (development) và vận hành (operations), nhất là đối với các sản phẩm vừa và nhỏ. Vì là người phát triển sản phẩm, Developer sẽ hiểu rõ về sản phẩm để chọn cách vận hành phù hợp nhất nên anh ta sẽ đảm nhiệm việc develop, đồng thời cũng kiêm luôn việc test, deploy sản phẩm.
+- Sau đó, sự bùng nổ về quy mô của các công ty và sản phẩm công nghệ diễn ra: Từ đó, kéo theo quy mô hệ thống phình ra theo cấp số nhân. Từ một vài server, hệ thống có thể phát triển lên đến hàng chục, hàng trăm, hàng nghìn, hoặc thậm chí hàng triệu server (ví dụ như trường hợp của Google, Facebook).
+Yêu cầu chuyên môn hóa trở nên gắt gao, khiến quy trình phát triển phần mềm chia tách thành những giai đoạn riêng biệt. Đây là giai đoạn mà Dev và Ops tách bạch.
+- Ngoài ra, ngành phát triển phần mềm cũng dịch chuyển theo một hướng khác – microservices.
+
+    ``` Microservices: Một sản phẩm lớn được chia tách làm rất nhiều service nhỏ, các service này liên kết với nhau tạo thành một sản phẩm hoàn chỉnh.```
